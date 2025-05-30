@@ -59,11 +59,6 @@
         "path": "spinning-turbo",
         "isLazyLoad": true
     },
-    "symbol-match": {
-        "bundle": "resources",
-        "path": "symbol-match",
-        "isLazyLoad": true
-    },
     "transition": {
         "bundle": "resources",
         "path": "transition",
@@ -92,6 +87,11 @@
     "increment_stop": {
         "bundle": "resources",
         "path": "increment-stop",
+        "isLazyLoad": true
+    },
+    "winning-level-up": {
+        "bundle": "resources",
+        "path": "winning-level-up",
         "isLazyLoad": true
     },
     "bgm-song1": {
