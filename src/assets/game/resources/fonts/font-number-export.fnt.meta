@@ -9,8 +9,8 @@
   "subMetas": {},
   "userData": {
     "_fntConfig": {
-      "commonHeight": 75,
-      "fontSize": 75,
+      "commonHeight": 69,
+      "fontSize": 69,
       "atlasName": "font-number-export.png",
       "fontDefDictionary": {
         "9": {
@@ -22,7 +22,7 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 0
+          "xAdvance": 160
         },
         "32": {
           "rect": {
@@ -33,144 +33,144 @@
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 16
+          "xAdvance": 20
         },
         "44": {
           "rect": {
-            "x": 70,
-            "y": 0,
-            "width": 32,
-            "height": 38
+            "x": 84,
+            "y": 58,
+            "width": 21,
+            "height": 32
           },
           "xOffset": 0,
-          "yOffset": 42,
-          "xAdvance": 29
+          "yOffset": 45,
+          "xAdvance": 24
         },
         "46": {
           "rect": {
-            "x": 131,
-            "y": 82,
-            "width": 27,
-            "height": 27
+            "x": 0,
+            "y": 232,
+            "width": 21,
+            "height": 20
           },
           "xOffset": 0,
-          "yOffset": 48,
+          "yOffset": 39,
           "xAdvance": 24
         },
         "48": {
           "rect": {
             "x": 0,
-            "y": 79,
-            "width": 57,
-            "height": 75
+            "y": 116,
+            "width": 41,
+            "height": 57
           },
           "xOffset": 0,
           "yOffset": 0,
-          "xAdvance": 54
+          "xAdvance": 44
         },
         "49": {
           "rect": {
-            "x": 194,
-            "y": 164,
-            "width": 51,
-            "height": 72
+            "x": 83,
+            "y": 174,
+            "width": 28,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 3,
-          "xAdvance": 48
+          "yOffset": 0,
+          "xAdvance": 31
         },
         "50": {
           "rect": {
-            "x": 130,
-            "y": 161,
-            "width": 54,
-            "height": 74
+            "x": 42,
+            "y": 174,
+            "width": 40,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 1,
-          "xAdvance": 51
+          "yOffset": 0,
+          "xAdvance": 43
         },
         "51": {
           "rect": {
-            "x": 193,
-            "y": 0,
-            "width": 51,
-            "height": 72
+            "x": 42,
+            "y": 116,
+            "width": 40,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 3,
-          "xAdvance": 48
+          "yOffset": 0,
+          "xAdvance": 43
         },
         "52": {
           "rect": {
-            "x": 67,
-            "y": 79,
-            "width": 54,
-            "height": 72
+            "x": 0,
+            "y": 0,
+            "width": 46,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 3,
-          "xAdvance": 51
+          "yOffset": 0,
+          "xAdvance": 49
         },
         "53": {
           "rect": {
-            "x": 131,
-            "y": 0,
-            "width": 52,
-            "height": 72
+            "x": 0,
+            "y": 58,
+            "width": 41,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 3,
-          "xAdvance": 49
+          "yOffset": 0,
+          "xAdvance": 44
         },
         "54": {
           "rect": {
-            "x": 0,
-            "y": 164,
-            "width": 55,
-            "height": 69
+            "x": 47,
+            "y": 0,
+            "width": 40,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 6,
-          "xAdvance": 52
+          "yOffset": 0,
+          "xAdvance": 43
         },
         "55": {
           "rect": {
-            "x": 194,
-            "y": 82,
-            "width": 51,
-            "height": 72
+            "x": 83,
+            "y": 116,
+            "width": 39,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 3,
-          "xAdvance": 48
+          "yOffset": 0,
+          "xAdvance": 42
         },
         "56": {
           "rect": {
-            "x": 65,
-            "y": 164,
-            "width": 55,
-            "height": 69
+            "x": 0,
+            "y": 174,
+            "width": 41,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 6,
-          "xAdvance": 52
+          "yOffset": 0,
+          "xAdvance": 44
         },
         "57": {
           "rect": {
-            "x": 0,
-            "y": 0,
-            "width": 60,
-            "height": 69
+            "x": 42,
+            "y": 58,
+            "width": 41,
+            "height": 57
           },
           "xOffset": 0,
-          "yOffset": 6,
-          "xAdvance": 57
+          "yOffset": 0,
+          "xAdvance": 44
         }
       },
       "kerningDict": {}
     },
-    "fontSize": 75,
+    "fontSize": 69,
     "textureUuid": "8bab0c6a-24b6-4dc1-a20d-d561dae88723"
   }
 }
