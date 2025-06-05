@@ -284,7 +284,7 @@
         "__id__": 26
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 34
@@ -1055,9 +1055,6 @@
     },
     "nodeCircleBlur": {
       "__id__": 18
-    },
-    "nodeCircleStop": {
-      "__id__": 26
     },
     "nodeCircle": {
       "__id__": 9
