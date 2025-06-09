@@ -1,0 +1,125 @@
+
+effect-freespin.webp
+size: 2000,1921
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fs_bg
+  rotate: false
+  xy: 0, 80
+  size: 411, 363
+  orig: 486, 450
+  offset: 36, 45
+  index: -1
+fs_frame
+  rotate: true
+  xy: 1548, 1435
+  size: 486, 450
+  orig: 486, 450
+  offset: 0, 0
+  index: -1
+fs_lightsweep/fs_lightsweep_00
+  rotate: false
+  xy: 1019, 493
+  size: 500, 475
+  orig: 555, 514
+  offset: 22, 33
+  index: -1
+fs_lightsweep/fs_lightsweep_01
+  rotate: false
+  xy: 515, 955
+  size: 502, 475
+  orig: 555, 514
+  offset: 20, 33
+  index: -1
+fs_lightsweep/fs_lightsweep_02
+  rotate: false
+  xy: 1032, 970
+  size: 503, 476
+  orig: 555, 514
+  offset: 19, 33
+  index: -1
+fs_lightsweep/fs_lightsweep_03
+  rotate: false
+  xy: 513, 473
+  size: 502, 480
+  orig: 555, 514
+  offset: 19, 30
+  index: -1
+fs_lightsweep/fs_lightsweep_04
+  rotate: false
+  xy: 0, 445
+  size: 504, 484
+  orig: 555, 514
+  offset: 20, 27
+  index: -1
+fs_lightsweep/fs_lightsweep_05
+  rotate: false
+  xy: 0, 931
+  size: 511, 494
+  orig: 555, 514
+  offset: 22, 17
+  index: -1
+fs_lightsweep/fs_lightsweep_06
+  rotate: false
+  xy: 0, 1427
+  size: 513, 494
+  orig: 555, 514
+  offset: 21, 17
+  index: -1
+fs_lightsweep/fs_lightsweep_07
+  rotate: false
+  xy: 515, 1432
+  size: 515, 489
+  orig: 555, 514
+  offset: 19, 17
+  index: -1
+fs_lightsweep/fs_lightsweep_08
+  rotate: false
+  xy: 1032, 1448
+  size: 514, 473
+  orig: 555, 514
+  offset: 19, 25
+  index: -1
+fs_lightsweep/fs_lightsweep_09
+  rotate: true
+  xy: 1537, 932
+  size: 501, 463
+  orig: 555, 514
+  offset: 20, 32
+  index: -1
+fs_lightsweep/fs_lightsweep_10
+  rotate: false
+  xy: 1017, 25
+  size: 493, 466
+  orig: 555, 514
+  offset: 28, 33
+  index: -1
+fs_lightsweep/fs_lightsweep_11
+  rotate: false
+  xy: 506, 0
+  size: 494, 471
+  orig: 555, 514
+  offset: 27, 33
+  index: -1
+fs_lightsweep/fs_lightsweep_12
+  rotate: true
+  xy: 1521, 430
+  size: 500, 475
+  orig: 555, 514
+  offset: 22, 33
+  index: -1
+text_freespins
+  rotate: false
+  xy: 0, 18
+  size: 319, 60
+  orig: 320, 62
+  offset: 1, 1
+  index: -1
+text_freespins_starglow
+  rotate: true
+  xy: 413, 105
+  size: 338, 85
+  orig: 380, 90
+  offset: 23, 5
+  index: -1

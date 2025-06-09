@@ -1,263 +1,166 @@
-
-transition.jpg
-size: 1839,1839
+transition.webp
+size: 1825,1540
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-watervfx/Comp 103
-  rotate: true
-  xy: 684, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 105
-  rotate: true
-  xy: 2, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 107
+door_lf
   rotate: false
-  xy: 387, 772
-  size: 680, 383
-  orig: 680, 383
+  xy: 0, 675
+  size: 777, 865
+  orig: 777, 865
   offset: 0, 0
   index: -1
-watervfx/Comp 109
-  rotate: true
-  xy: 1069, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 111
-  rotate: true
-  xy: 1069, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 114
+door_rt
   rotate: false
-  xy: 2, 387
-  size: 680, 383
-  orig: 680, 383
+  xy: 779, 675
+  size: 776, 865
+  orig: 776, 865
   offset: 0, 0
   index: -1
-watervfx/Comp 116
+dust/dust_05
   rotate: true
-  xy: 684, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1816, 990
+  size: 550, 9
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 118
+dust/dust_06
   rotate: false
-  xy: 2, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 1
+  size: 550, 9
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 120
+dust/dust_07
   rotate: false
-  xy: 1069, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 0, 0
+  size: 550, 27
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 122
-  rotate: true
-  xy: 1454, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 124
-  rotate: true
-  xy: 1454, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 176
+dust/dust_08
   rotate: false
-  xy: 2, 1454
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 12
+  size: 550, 47
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-
-transition2.jpg
-size: 1839,1839
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-watervfx/Comp 127
+dust/dust_09
+  rotate: true
+  xy: 1548, 123
+  size: 550, 65
+  orig: 600, 337
+  offset: 25, 0
+  index: -1
+dust/dust_10
+  rotate: true
+  xy: 1738, 990
+  size: 550, 76
+  orig: 600, 337
+  offset: 25, 0
+  index: -1
+dust/dust_11
   rotate: false
-  xy: 2, 1454
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 61
+  size: 550, 137
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 129
+dust/dust_12
   rotate: true
-  xy: 684, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1718, 438
+  size: 550, 99
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 131
+dust/dust_13
   rotate: true
-  xy: 2, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1615, 439
+  size: 550, 101
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 133
+dust/dust_14
   rotate: false
-  xy: 387, 772
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1104, 8
+  size: 550, 113
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 135
+dust/dust_15
   rotate: true
-  xy: 1069, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1424, 123
+  size: 550, 122
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 137
+dust/dust_16
   rotate: true
-  xy: 1069, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1104, 123
+  size: 550, 135
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 140
+dust/dust_17
   rotate: false
-  xy: 2, 387
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 200
+  size: 550, 142
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 142
-  rotate: true
-  xy: 684, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 144
+dust/dust_18
   rotate: false
-  xy: 2, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 0, 372
+  size: 550, 301
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 146
+dust/dust_19
   rotate: false
-  xy: 1069, 90
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 344
+  size: 550, 158
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 148
-  rotate: true
-  xy: 1454, 1157
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 150
-  rotate: true
-  xy: 1454, 475
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-
-transition3.jpg
-size: 1839,1751
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-watervfx/Comp 153
+dust/dust_20
   rotate: false
-  xy: 2, 1366
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 0, 29
+  size: 550, 162
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 155
-  rotate: true
-  xy: 684, 1069
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 157
-  rotate: true
-  xy: 2, 684
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 159
+dust/dust_21
   rotate: false
-  xy: 387, 684
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 552, 504
+  size: 550, 169
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 161
-  rotate: true
-  xy: 1069, 1069
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 163
-  rotate: true
-  xy: 1069, 387
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 166
+dust/dust_22
   rotate: false
-  xy: 2, 299
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 0, 193
+  size: 550, 177
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 168
+dust/dust_23
   rotate: true
-  xy: 684, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1557, 991
+  size: 549, 179
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 170
-  rotate: false
-  xy: 1069, 2
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
-  index: -1
-watervfx/Comp 172
+dust/dust_24
   rotate: true
-  xy: 1454, 1069
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1241, 180
+  size: 493, 181
+  orig: 600, 337
+  offset: 25, 0
   index: -1
-watervfx/Comp 174
+dust/dust_25
   rotate: true
-  xy: 1454, 387
-  size: 680, 383
-  orig: 680, 383
-  offset: 0, 0
+  xy: 1656, 7
+  size: 429, 165
+  orig: 600, 337
+  offset: 26, 0
   index: -1

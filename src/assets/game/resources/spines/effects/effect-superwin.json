@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "hr8oDFQ009QzVx7850kyf5CskJc",
+	"hash": "20ifoWzcmToQtHqo9p/j9NwdINY",
 	"spine": "3.8.99",
-	"x": -348.5,
-	"y": -325.35,
-	"width": 697,
-	"height": 621,
+	"x": -404.5,
+	"y": -381.35,
+	"width": 809,
+	"height": 733,
 	"images": "./image/",
 	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/effect"
 },
@@ -44,7 +44,6 @@
 	{ "name": "super_feather", "bone": "cover", "attachment": "super_feather" },
 	{ "name": "super_cover", "bone": "cover", "attachment": "super_cover" },
 	{ "name": "super_cover_inside", "bone": "cover", "attachment": "super_cover_inside" },
-	{ "name": "cover_matte", "bone": "root", "attachment": "cover_matte" },
 	{ "name": "super_coin_shine", "bone": "Treasure Chest", "attachment": "super_coin_shine", "blend": "additive" },
 	{ "name": "super_coin", "bone": "coin", "attachment": "super_coin" },
 	{ "name": "stone_blue2", "bone": "stone_blue2", "attachment": "stone_blue" },
@@ -68,7 +67,7 @@
 		"name": "default",
 		"attachments": {
 			"black-cover": {
-				"black-cover": { "y": -14.85, "width": 697, "height": 621 }
+				"black-cover": { "y": -14.85, "width": 809, "height": 733 }
 			},
 			"coin_particle/coin_particle_00": {
 				"coin_particle/coin_particle_00": { "y": 76.68, "width": 361, "height": 139 },
@@ -81,15 +80,6 @@
 				"coin_particle/coin_particle_07": { "y": 76.68, "width": 361, "height": 139 },
 				"coin_particle/coin_particle_08": { "y": 76.68, "width": 361, "height": 139 },
 				"coin_particle/coin_particle_09": { "y": 76.68, "width": 361, "height": 139 }
-			},
-			"cover_matte": {
-				"cover_matte": {
-					"type": "clipping",
-					"end": "sparkle3",
-					"vertexCount": 4,
-					"vertices": [ 251.67, 50.92, 250.35, -69.41, -243.79, -69.35, -241.9, 54.02 ],
-					"color": "ce3a3aff"
-				}
 			},
 			"sparkle": {
 				"sparkle": { "x": 0.88, "y": -0.22, "width": 50, "height": 50 }
@@ -163,11 +153,6 @@
 	"hide": {
 		"slots": {
 			"black-cover": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"cover_matte": {
 				"attachment": [
 					{ "name": null }
 				]
@@ -276,10 +261,6 @@
 	"loop": {
 		"slots": {
 			"coin_particle/coin_particle_00": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.0667, "color": "ffffffff" }
-				],
 				"attachment": [
 					{ "name": "coin_particle/coin_particle_00" },
 					{ "time": 0.0333, "name": "coin_particle/coin_particle_01" },
@@ -385,7 +366,10 @@
 					{ "time": 0.2, "x": 1.056, "y": 1.056, "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.3333, "x": 0.958, "y": 0.958, "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.4667, "x": 1.068, "y": 1.068, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5667 }
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "x": 1.041, "y": 1.041, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 0.803, "y": 0.803 }
 				]
 			},
 			"sparkle": {
@@ -572,50 +556,18 @@
 				]
 			}
 		},
-		"deform": {
-			"default": {
-				"cover_matte": {
-					"cover_matte": [
-						{
-							"vertices": [ -13.828, -123.68391, 1.63599, 73.61996, 1.63599, 73.61996, -14.43204, -124.89189 ]
-						},
-						{
-							"time": 0.0333,
-							"vertices": [ 6.16004, -31.94595, 0, 0, 0, 0, 5.55601, -33.75792 ]
-						},
-						{
-							"time": 0.0667,
-							"vertices": [ 8.33606, -14.474, 0, 0, 0, 0, 7.73203, -16.88996 ]
-						},
-						{
-							"time": 0.1,
-							"vertices": [ 0.59402, -2.19801, 0, 0, 0, 0, -0.01001, -4.61397 ]
-						},
-						{
-							"time": 0.1333,
-							"vertices": [ -1.54198, 6.39799, 0, 0, 0, 0, -2.14602, 3.98203 ]
-						},
-						{
-							"time": 0.1667,
-							"vertices": [ 2.686, 21.31202, 0, 0, 0, 0, 2.08197, 18.89606 ]
-						},
-						{
-							"time": 0.2,
-							"vertices": [ -1.20795, 23.84597, 0, 0, 0, 0, -1.81198, 21.43001 ]
-						}
-					]
-				}
-			}
-		}
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "super_cover", "offset": 9 }
+				]
+			},
+			{ "time": 0.1 }
+		]
 	},
 	"show": {
 		"slots": {
 			"black-cover": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"cover_matte": {
 				"attachment": [
 					{ "name": null }
 				]

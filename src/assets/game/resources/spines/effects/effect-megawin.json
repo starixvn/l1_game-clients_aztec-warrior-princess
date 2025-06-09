@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "0IMeOKS/PNBYgW672/L2ESSlH9U",
+	"hash": "banD+VFpHyojHAFrbLNFCKA7h2Q",
 	"spine": "3.8.99",
 	"x": -348.5,
 	"y": -325.35,
@@ -29,7 +29,6 @@
 	{ "name": "black-cover", "bone": "root", "attachment": "black-cover" },
 	{ "name": "mega_cover_inside", "bone": "cover", "attachment": "mega_cover_inside" },
 	{ "name": "mega_cover", "bone": "cover", "attachment": "mega_cover" },
-	{ "name": "cover_matte", "bone": "root", "attachment": "cover_matte" },
 	{ "name": "super_coin_shine", "bone": "Treasure Chest", "attachment": "super_coin_shine", "blend": "additive" },
 	{ "name": "mega_coin", "bone": "coin", "attachment": "mega_coin" },
 	{ "name": "stone_blue", "bone": "stone_blue", "attachment": "stone_blue" },
@@ -47,7 +46,7 @@
 		"name": "default",
 		"attachments": {
 			"black-cover": {
-				"black-cover": { "y": -14.85, "width": 697, "height": 621 }
+				"black-cover": { "y": -14.85, "width": 809, "height": 733 }
 			},
 			"coin_particle/coin_particle_00": {
 				"coin_particle/coin_particle_00": { "y": 76.68, "width": 361, "height": 139 },
@@ -60,15 +59,6 @@
 				"coin_particle/coin_particle_07": { "y": 76.68, "width": 361, "height": 139 },
 				"coin_particle/coin_particle_08": { "y": 76.68, "width": 361, "height": 139 },
 				"coin_particle/coin_particle_09": { "y": 76.68, "width": 361, "height": 139 }
-			},
-			"cover_matte": {
-				"cover_matte": {
-					"type": "clipping",
-					"end": "sparkle",
-					"vertexCount": 4,
-					"vertices": [ 251.67, 50.92, 250.35, -69.41, -243.79, -69.35, -241.9, 54.02 ],
-					"color": "ce3a3aff"
-				}
 			},
 			"mega_box": {
 				"mega_box": { "y": 102.25, "width": 475, "height": 212 }
@@ -118,11 +108,6 @@
 				]
 			},
 			"coin_particle/coin_particle_00": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"cover_matte": {
 				"attachment": [
 					{ "name": null }
 				]
@@ -196,10 +181,6 @@
 	"loop": {
 		"slots": {
 			"coin_particle/coin_particle_00": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.0667, "color": "ffffffff" }
-				],
 				"attachment": [
 					{ "name": "coin_particle/coin_particle_00" },
 					{ "time": 0.0333, "name": "coin_particle/coin_particle_01" },
@@ -290,7 +271,10 @@
 					{ "time": 0.2, "x": 1.056, "y": 1.056, "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.3333, "x": 0.958, "y": 0.958, "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.4667, "x": 1.068, "y": 1.068, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5667 }
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "x": 1.045, "y": 1.045, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 0.803, "y": 0.803 }
 				]
 			},
 			"sparkle": {
@@ -387,41 +371,20 @@
 				]
 			}
 		},
-		"deform": {
-			"default": {
-				"cover_matte": {
-					"cover_matte": [
-						{
-							"vertices": [ -13.828, -123.68391, 1.63599, 73.61996, 1.63599, 73.61996, -14.43204, -124.89189 ]
-						},
-						{
-							"time": 0.0333,
-							"vertices": [ 3.02005, -33.20194, 0, 0, 0, 0, 2.41602, -35.01392 ]
-						},
-						{
-							"time": 0.0667,
-							"vertices": [ 4.83203, -14.81999, 0, 0, 0, 0, 4.228, -17.23595 ]
-						},
-						{
-							"time": 0.1,
-							"vertices": [ -1.38396, -1.42001, 0, 0, 0, 0, -1.98799, -3.83597 ]
-						},
-						{
-							"time": 0.1333,
-							"vertices": [ -1.81198, 5.58799, 0, 0, 0, 0, -2.41602, 3.17203 ]
-						},
-						{
-							"time": 0.1667,
-							"vertices": [ 2.686, 21.31202, 0, 0, 0, 0, 2.08197, 18.89606 ]
-						},
-						{
-							"time": 0.2,
-							"vertices": [ -1.20795, 23.84597, 0, 0, 0, 0, -1.81198, 21.43001 ]
-						}
-					]
-				}
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "mega_cover", "offset": 5 }
+				]
+			},
+			{ "time": 0.0667 },
+			{
+				"time": 1.3333,
+				"offsets": [
+					{ "slot": "mega_cover", "offset": 5 }
+				]
 			}
-		}
+		]
 	},
 	"show": {
 		"slots": {

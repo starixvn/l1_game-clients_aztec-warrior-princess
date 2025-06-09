@@ -1,229 +1,229 @@
 
 effect.webp
-size: 1922,997
+size: 2017,1033
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 big_box
-  rotate: true
-  xy: 1137, 551
+  rotate: false
+  xy: 791, 343
   size: 446, 212
   orig: 475, 212
   offset: 18, 0
   index: -1
 big_coin
   rotate: false
-  xy: 1367, 440
+  xy: 880, 61
   size: 317, 137
   orig: 323, 143
   offset: 2, 1
   index: -1
 big_cover
-  rotate: true
-  xy: 898, 551
+  rotate: false
+  xy: 791, 557
   size: 446, 237
   orig: 475, 237
   offset: 24, 0
   index: -1
 big_cover_inside
-  rotate: true
-  xy: 1273, 57
+  rotate: false
+  xy: 1239, 316
   size: 349, 84
   orig: 349, 84
   offset: 0, 0
   index: -1
 big_win_number_bg
   rotate: false
-  xy: 0, 0
+  xy: 0, 6
   size: 484, 73
   orig: 484, 73
   offset: 0, 0
   index: -1
 black-cover
-  rotate: true
-  xy: 0, 314
-  size: 683, 607
-  orig: 697, 621
-  offset: 7, 7
+  rotate: false
+  xy: 0, 320
+  size: 789, 713
+  orig: 833, 756
+  offset: 22, 21
   index: -1
 coin_particle/coin_particle_00
   rotate: false
-  xy: 1445, 1
+  xy: 1590, 223
   size: 329, 95
   orig: 361, 139
   offset: 17, 15
   index: -1
 coin_particle/coin_particle_01
   rotate: false
-  xy: 1587, 584
+  xy: 1590, 320
   size: 326, 105
   orig: 361, 139
   offset: 18, 18
   index: -1
 coin_particle/coin_particle_02
-  rotate: true
-  xy: 1660, 113
+  rotate: false
+  xy: 1564, 427
   size: 325, 118
   orig: 361, 139
   offset: 19, 1
   index: -1
 coin_particle/coin_particle_03
-  rotate: true
-  xy: 1475, 654
+  rotate: false
+  xy: 1199, 204
   size: 343, 110
   orig: 361, 139
   offset: 0, 6
   index: -1
 coin_particle/coin_particle_04
-  rotate: true
-  xy: 1445, 98
+  rotate: false
+  xy: 1199, 95
   size: 340, 107
   orig: 361, 139
   offset: 3, 8
   index: -1
 coin_particle/coin_particle_05
-  rotate: true
-  xy: 1554, 101
+  rotate: false
+  xy: 486, 0
   size: 337, 104
   orig: 361, 139
   offset: 6, 10
   index: -1
 coin_particle/coin_particle_06
   rotate: false
-  xy: 1587, 894
+  xy: 1550, 31
   size: 335, 103
   orig: 361, 139
   offset: 8, 11
   index: -1
 coin_particle/coin_particle_07
   rotate: true
-  xy: 1780, 263
+  xy: 1738, 600
   size: 319, 101
   orig: 361, 139
   offset: 17, 11
   index: -1
 coin_particle/coin_particle_08
-  rotate: false
-  xy: 1587, 793
+  rotate: true
+  xy: 1918, 365
   size: 335, 99
   orig: 361, 139
   offset: 17, 13
   index: -1
 coin_particle/coin_particle_09
-  rotate: false
-  xy: 1587, 691
+  rotate: true
+  xy: 1917, 702
   size: 331, 100
   orig: 361, 139
   offset: 17, 11
   index: -1
 mega_box
-  rotate: true
-  xy: 684, 522
+  rotate: false
+  xy: 1252, 821
   size: 475, 212
   orig: 475, 212
   offset: 0, 0
   index: -1
 mega_coin
   rotate: false
-  xy: 1048, 408
+  xy: 880, 200
   size: 317, 141
   orig: 323, 143
   offset: 2, 0
   index: -1
 mega_cover
   rotate: false
-  xy: 477, 75
+  xy: 791, 796
   size: 459, 237
   orig: 475, 237
   offset: 9, 0
   index: -1
 mega_cover_inside
-  rotate: true
-  xy: 1359, 57
+  rotate: false
+  xy: 1199, 9
   size: 349, 84
   orig: 349, 84
   offset: 0, 0
   index: -1
 mega_win_number_bg
   rotate: false
-  xy: 486, 0
+  xy: 1252, 746
   size: 484, 73
   orig: 484, 73
   offset: 0, 0
   index: -1
 sparkle
-  rotate: false
-  xy: 723, 329
+  rotate: true
+  xy: 1918, 320
   size: 43, 46
   orig: 50, 50
   offset: 5, 2
   index: -1
 stone_blue
-  rotate: true
-  xy: 768, 335
+  rotate: false
+  xy: 791, 321
   size: 40, 20
   orig: 40, 20
   offset: 0, 0
   index: -1
 stone_green
   rotate: false
-  xy: 768, 315
+  xy: 825, 86
   size: 31, 18
   orig: 31, 18
   offset: 0, 0
   index: -1
 stone_red
   rotate: false
-  xy: 790, 350
+  xy: 1199, 316
   size: 25, 25
   orig: 25, 25
   offset: 0, 0
   index: -1
 super_box
-  rotate: true
-  xy: 1059, 5
+  rotate: false
+  xy: 477, 106
   size: 401, 212
   orig: 475, 212
   offset: 40, 0
   index: -1
 super_coin
   rotate: false
-  xy: 723, 377
+  xy: 1239, 402
   size: 323, 143
   orig: 323, 143
   offset: 0, 0
   index: -1
 super_coin_shine
-  rotate: true
-  xy: 1351, 579
+  rotate: false
+  xy: 1239, 547
   size: 418, 122
   orig: 475, 143
   offset: 29, 9
   index: -1
 super_cover
   rotate: false
-  xy: 0, 75
+  xy: 0, 81
   size: 475, 237
   orig: 475, 237
   offset: 0, 0
   index: -1
 super_cover_inside
-  rotate: true
-  xy: 972, 25
+  rotate: false
+  xy: 1544, 136
   size: 350, 85
   orig: 350, 85
   offset: 0, 0
   index: -1
 super_feather
-  rotate: true
-  xy: 609, 325
+  rotate: false
+  xy: 1729, 921
   size: 186, 112
   orig: 186, 112
   offset: 0, 0
   index: -1
 super_win_number_bg
-  rotate: true
-  xy: 609, 513
+  rotate: false
+  xy: 1239, 671
   size: 484, 73
   orig: 484, 73
   offset: 0, 0
