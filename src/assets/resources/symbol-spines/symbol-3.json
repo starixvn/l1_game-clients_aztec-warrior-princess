@@ -1,176 +1,54 @@
 {
-"skeleton": { "hash": "SP01LI7HTrSWq8T4UYQ6xUWcjM8", "spine": "3.8.99" },
+"skeleton": {
+	"hash": "P6c0ahQ+IO9TLGV7A/mtluz2n2c",
+	"spine": "3.8.99",
+	"x": -55,
+	"y": -55,
+	"width": 110,
+	"height": 110,
+	"images": "./image/",
+	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/symbol-spine"
+},
 "bones": [
 	{ "name": "root" },
-	{ "name": "explode", "parent": "root", "scaleX": 0.8, "scaleY": 0.8 },
-	{ "name": "bubble", "parent": "root", "y": 24.67 },
-	{ "name": "Twinkle Bubble", "parent": "root" },
-	{ "name": "explose light circle", "parent": "root", "scaleX": 1.3, "scaleY": 1.3 },
-	{ "name": "medal-0", "parent": "root", "y": -5.58 },
-	{ "name": "medal", "parent": "medal-0" },
-	{ "name": "medal2", "parent": "medal", "length": 37.5, "transform": "noRotationOrReflection" },
-	{ "name": "IKmedal", "parent": "medal-0", "x": 40.62, "transform": "noRotationOrReflection" },
-	{ "name": "side", "parent": "medal-0", "length": 4.79, "rotation": 180, "x": 20.51 },
-	{ "name": "neo", "parent": "medal-0", "rotation": -180, "x": 40.84 },
-	{ "name": "bone", "parent": "root" },
-	{ "name": "highlight", "parent": "medal-0", "x": -67.27 },
-	{ "name": "bling", "parent": "medal2", "x": -30.7, "scaleX": 0.5, "scaleY": 0.5 },
-	{ "name": "bling2", "parent": "medal2", "x": 28.98, "scaleX": 0.5, "scaleY": 0.5 },
-	{ "name": "bling3", "parent": "medal2", "x": -0.34, "y": 29.67, "scaleX": 0.5, "scaleY": 0.5 },
-	{ "name": "bling4", "parent": "medal2", "x": -0.34, "y": -30.7, "scaleX": 0.5, "scaleY": 0.5 }
+	{ "name": "s3", "parent": "root" },
+	{ "name": "broken", "parent": "root" }
 ],
 "slots": [
-	{ "name": "medal", "bone": "medal2" },
-	{ "name": "medalside 1", "bone": "side" },
-	{ "name": "medal-clipingmask", "bone": "medal-0", "attachment": "medal-clipingmask" },
-	{ "name": "highlight", "bone": "highlight", "attachment": "highlight", "blend": "additive" },
-	{ "name": "explode", "bone": "explode", "color": "0a9aff7e", "blend": "additive" },
-	{ "name": "bubble", "bone": "bubble", "color": "4db3ffff", "blend": "additive" },
-	{ "name": "Twinkle Bubble", "bone": "Twinkle Bubble", "color": "008bffff", "blend": "additive" },
-	{ "name": "explose light circle", "bone": "explose light circle", "color": "0084ffff", "blend": "additive" },
-	{ "name": "bling", "bone": "bling", "blend": "additive" },
-	{ "name": "bling2", "bone": "bling2", "blend": "additive" },
-	{ "name": "bling3", "bone": "bling3", "blend": "additive" },
-	{ "name": "bling4", "bone": "bling4", "blend": "additive" }
-],
-"ik": [
-	{
-		"name": "IKmedal",
-		"bones": [ "medal2" ],
-		"target": "IKmedal",
-		"compress": true
-	},
-	{
-		"name": "IKmedal2",
-		"order": 1,
-		"bones": [ "side" ],
-		"target": "IKmedal",
-		"compress": true
-	}
+	{ "name": "s3_bg", "bone": "root", "attachment": "s3_bg" },
+	{ "name": "s3_bg2", "bone": "root", "attachment": "s3_bg", "blend": "additive" },
+	{ "name": "s3_Eagle_Head", "bone": "s3", "attachment": "s3_Eagle_Head" },
+	{ "name": "s3_Eagle_Head_glow", "bone": "s3", "attachment": "s3_Eagle_Head_glow", "blend": "additive" },
+	{ "name": "crack", "bone": "root", "attachment": "crack" },
+	{ "name": "s3_broken/s3_broken_05", "bone": "broken", "attachment": "s3_broken/s3_broken_06" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"Twinkle Bubble": {
-				"Twinkle Bubble/wh_vfx_d_add_09": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_10": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_11": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_12": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_13": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_14": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_15": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_16": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_17": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_18": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_19": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_20": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_21": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_22": { "width": 160, "height": 160 },
-				"Twinkle Bubble/wh_vfx_d_add_23": { "width": 160, "height": 160 }
+			"crack": {
+				"crack": { "width": 110, "height": 110 }
 			},
-			"bling": {
-				"bling": { "x": 0.5, "width": 135, "height": 122 }
+			"s3_Eagle_Head": {
+				"s3_Eagle_Head": { "width": 110, "height": 110 }
 			},
-			"bling2": {
-				"bling": { "x": 0.5, "width": 135, "height": 122 }
+			"s3_Eagle_Head_glow": {
+				"s3_Eagle_Head_glow": { "width": 110, "height": 110 }
 			},
-			"bling3": {
-				"bling": { "x": 0.5, "width": 135, "height": 122 }
+			"s3_bg": {
+				"s3_bg": { "width": 110, "height": 110 }
 			},
-			"bling4": {
-				"bling": { "x": 0.5, "width": 135, "height": 122 }
+			"s3_bg2": {
+				"s3_bg": { "width": 110, "height": 110 }
 			},
-			"bubble": {
-				"bubble/bubble00": { "width": 80, "height": 80 },
-				"bubble/bubble01": { "width": 80, "height": 80 },
-				"bubble/bubble02": { "width": 80, "height": 80 },
-				"bubble/bubble03": { "width": 80, "height": 80 },
-				"bubble/bubble04": { "width": 80, "height": 80 },
-				"bubble/bubble05": { "width": 80, "height": 80 },
-				"bubble/bubble06": { "width": 80, "height": 80 },
-				"bubble/bubble07": { "width": 80, "height": 80 },
-				"bubble/bubble08": { "width": 80, "height": 80 },
-				"bubble/bubble09": { "width": 80, "height": 80 },
-				"bubble/bubble10": { "width": 80, "height": 80 },
-				"bubble/bubble11": { "width": 80, "height": 80 },
-				"bubble/bubble12": { "width": 80, "height": 80 },
-				"bubble/bubble13": { "width": 80, "height": 80 },
-				"bubble/bubble14": { "width": 80, "height": 80 },
-				"bubble/bubble15": { "width": 80, "height": 80 },
-				"bubble/bubble16": { "width": 80, "height": 80 },
-				"bubble/bubble17": { "width": 80, "height": 80 },
-				"bubble/bubble18": { "width": 80, "height": 80 },
-				"bubble/bubble19": { "width": 80, "height": 80 },
-				"bubble/bubble20": { "width": 80, "height": 80 },
-				"bubble/bubble21": { "width": 80, "height": 80 },
-				"bubble/bubble22": { "width": 80, "height": 80 },
-				"bubble/bubble23": { "width": 80, "height": 80 },
-				"bubble/bubble24": { "width": 80, "height": 80 }
-			},
-			"explode": {
-				"explode/sm00": { "width": 300, "height": 169 },
-				"explode/sm01": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm02": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm03": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm04": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm05": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm06": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm07": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm08": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm09": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm10": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm11": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm12": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm13": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm14": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm15": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm16": { "y": 0.5, "width": 300, "height": 169 },
-				"explode/sm17": { "y": 0.5, "width": 300, "height": 169 }
-			},
-			"explose light circle": {
-				"explose light circle/sb_vfx_a_add_00.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_01.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_05.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_06.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_07.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_08.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_09.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_11.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_12.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_13.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_14.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_15.jpg": { "width": 124, "height": 124 },
-				"explose light circle/sb_vfx_a_add_16.jpg": { "width": 124, "height": 124 }
-			},
-			"highlight": {
-				"highlight": { "y": 0.23, "width": 58, "height": 200 }
-			},
-			"medal": {
-				"medal": {
-					"type": "mesh",
-					"uvs": [ 0.62605, 0.01478, 0.63753, 0.05058, 0.63577, 0.16851, 0.71353, 0.19673, 0.79888, 0.23914, 0.86114, 0.28422, 0.92826, 0.36291, 0.97418, 0.43282, 1, 0.52604, 1, 0.65078, 0.97374, 0.73979, 0.91176, 0.81581, 0.83405, 0.88572, 0.74309, 0.94035, 0.6199, 0.98925, 0.55984, 1, 0.38818, 1, 0.29415, 0.97337, 0.18922, 0.92056, 0.1061, 0.84708, 0.03961, 0.75449, 0, 0.65704, 0, 0.47999, 0.05441, 0.37483, 0.13493, 0.28696, 0.22989, 0.22139, 0.34346, 0.17519, 0.36891, 0.17137, 0.36961, 0.13125, 0.37125, 0.03687, 0.39904, 0.01238, 0.44398, 0, 0.56883, 0 ],
-					"triangles": [ 0, 1, 32, 8, 6, 7, 21, 22, 23, 6, 8, 11, 9, 10, 8, 20, 21, 23, 5, 6, 4, 10, 11, 8, 24, 20, 23, 19, 20, 24, 29, 30, 31, 31, 32, 29, 32, 1, 29, 1, 28, 29, 2, 28, 1, 27, 28, 2, 4, 6, 3, 11, 12, 6, 25, 19, 24, 27, 18, 19, 27, 2, 3, 25, 26, 27, 19, 25, 27, 15, 18, 27, 3, 13, 27, 6, 12, 3, 3, 12, 13, 15, 17, 18, 15, 27, 13, 15, 16, 17, 13, 14, 15 ],
-					"vertices": [ 10.21, 49.68, 11.09, 46.49, 10.95, 35.99, 16.94, 33.48, 23.51, 29.71, 28.31, 25.7, 33.48, 18.69, 37.01, 12.47, 39, 4.17, 39, -6.93, 36.98, -14.85, 32.21, -21.61, 26.22, -27.84, 19.22, -32.7, 9.73, -37.05, 5.11, -38.01, -8.11, -38.01, -15.35, -35.64, -23.43, -30.94, -29.83, -24.4, -34.95, -16.16, -38, -7.48, -38, 8.27, -33.81, 17.63, -27.61, 25.45, -20.3, 31.29, -11.55, 35.4, -9.59, 35.74, -9.54, 39.31, -9.41, 47.71, -7.27, 49.89, -3.81, 50.99, 5.8, 50.99 ],
-					"hull": 33
-				}
-			},
-			"medal-clipingmask": {
-				"medal-clipingmask": {
-					"type": "clipping",
-					"end": "highlight",
-					"vertexCount": 50,
-					"vertices": [ -9.78, 35.98, 0.43, 38.24, 2.22, 38.82, 3.41, 40.24, 3.75, 42.11, 2.56, 43.55, 0.86, 44.18, -0.13, 43.93, -1.65, 43.19, -2.47, 41.69, -2.2, 40.11, -1.13, 39.21, 0.24, 38.29, -9.74, 36.11, -9.64, 42.03, -9.4, 47.41, -7.86, 49.57, -3.68, 51.06, 4.43, 51.06, 8.65, 50.14, 10.33, 48.99, 11.05, 47.12, 10.91, 38.38, 10.48, 35.89, 19.79, 32.19, 27.18, 26.82, 31.79, 21.3, 36.64, 12.94, 38.84, 5.65, 39.04, -3.23, 38.56, -9.28, 36.83, -15.42, 31.36, -22.58, 25.26, -28.72, 18.35, -33.18, 10.14, -36.88, 5.53, -37.94, -7, -38.03, -11.08, -37.02, -16.26, -35.3, -23.65, -30.69, -30.04, -24.35, -35.36, -15.71, -37.96, -7.6, -38.04, 5.91, -35.93, 13.11, -32.18, 19.83, -27.57, 25.6, -21.67, 30.35, -14.52, 33.95 ]
-				}
-			},
-			"medalside 1": {
-				"medalside 1": {
-					"type": "mesh",
-					"uvs": [ 1, 1, 0, 1, 0, 0.9375, 0, 0.875, 0, 0.8125, 0, 0.75, 0, 0.6875, 0, 0.625, 0, 0.5625, 0, 0.5, 0, 0.4375, 0, 0.375, 0, 0.3125, 0, 0.25, 0, 0.1875, 0, 0.125, 0, 0.0625, 0, 0, 1, 0, 1, 0.0625, 1, 0.125, 1, 0.1875, 1, 0.25, 1, 0.3125, 1, 0.375, 1, 0.4375, 1, 0.5, 1, 0.5625, 1, 0.625, 1, 0.6875, 1, 0.75, 1, 0.8125, 1, 0.875, 1, 0.9375 ],
-					"triangles": [ 16, 18, 19, 15, 19, 20, 13, 21, 22, 14, 20, 21, 1, 33, 0, 2, 32, 33, 4, 30, 31, 6, 28, 29, 7, 27, 28, 8, 26, 27, 9, 25, 26, 10, 24, 25, 11, 23, 24, 12, 22, 23, 1, 2, 33, 2, 3, 32, 3, 4, 31, 4, 5, 30, 5, 6, 29, 6, 7, 28, 7, 8, 27, 8, 9, 26, 9, 10, 25, 10, 11, 24, 11, 12, 23, 12, 13, 22, 13, 14, 21, 14, 15, 20, 15, 16, 19, 16, 17, 18, 5, 29, 30, 3, 31, 32 ],
-					"vertices": [ 1, 10, 35.74, 38.01, 1, 1, 7, 5.11, -38.01, 1, 1, 7, 9.21, -37.05, 1, 1, 7, 18.59, -32.7, 1, 1, 7, 25.38, -27.84, 1, 1, 7, 31.37, -21.61, 1, 1, 7, 35.82, -14.85, 1, 1, 7, 38.27, -6.93, 1, 1, 7, 38.37, 4.17, 1, 1, 7, 36.28, 12.47, 1, 1, 7, 32.95, 18.69, 1, 1, 7, 27.78, 25.7, 1, 1, 7, 22.88, 29.71, 1, 1, 7, 16.21, 33.48, 1, 1, 7, 10.11, 35.99, 1, 1, 7, 10.57, 46.49, 1, 1, 7, 10.21, 49.68, 1, 1, 7, 5.8, 50.99, 1, 1, 10, 35.04, -50.99, 1, 1, 10, 30.64, -49.68, 1, 1, 10, 30.28, -46.49, 1, 1, 10, 30.73, -35.99, 1, 2, 7, 16.21, 33.48, 0.344, 10, 24.64, -33.48, 0.656, 2, 7, 22.88, 29.71, 0.504, 10, 17.96, -29.71, 0.496, 2, 7, 27.78, 25.7, 0.576, 10, 13.06, -25.7, 0.424, 2, 7, 32.95, 18.69, 0.64, 10, 7.89, -18.69, 0.36, 2, 7, 36.28, 12.47, 0.672, 10, 4.57, -12.47, 0.328, 2, 7, 38.37, 4.17, 0.68, 10, 2.47, -4.17, 0.32, 2, 7, 38.27, -6.93, 0.68, 10, 2.58, 6.93, 0.32, 2, 7, 35.82, -14.85, 0.672, 10, 5.02, 14.85, 0.328, 2, 7, 31.37, -21.61, 0.648, 10, 9.48, 21.61, 0.352, 2, 7, 25.38, -27.84, 0.592, 10, 15.46, 27.84, 0.408, 2, 7, 18.59, -32.7, 0.496, 10, 22.26, 32.7, 0.504, 1, 10, 31.64, 37.05, 1 ],
-					"hull": 34
-				}
+			"s3_broken/s3_broken_05": {
+				"s3_broken/s3_broken_00": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
+				"s3_broken/s3_broken_01": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
+				"s3_broken/s3_broken_02": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
+				"s3_broken/s3_broken_03": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
+				"s3_broken/s3_broken_04": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
+				"s3_broken/s3_broken_05": { "width": 85, "height": 85 },
+				"s3_broken/s3_broken_06": { "width": 85, "height": 85 }
 			}
 		}
 	}
@@ -178,250 +56,118 @@
 "animations": {
 	"explode": {
 		"slots": {
-			"Twinkle Bubble": {
-				"attachment": [
-					{ "name": "Twinkle Bubble/wh_vfx_d_add_09" },
-					{ "time": 0.0333, "name": "Twinkle Bubble/wh_vfx_d_add_10" },
-					{ "time": 0.0667, "name": "Twinkle Bubble/wh_vfx_d_add_11" },
-					{ "time": 0.1, "name": "Twinkle Bubble/wh_vfx_d_add_12" },
-					{ "time": 0.1333, "name": "Twinkle Bubble/wh_vfx_d_add_13" },
-					{ "time": 0.1667, "name": "Twinkle Bubble/wh_vfx_d_add_14" },
-					{ "time": 0.2, "name": "Twinkle Bubble/wh_vfx_d_add_15" },
-					{ "time": 0.2333, "name": "Twinkle Bubble/wh_vfx_d_add_16" },
-					{ "time": 0.2667, "name": "Twinkle Bubble/wh_vfx_d_add_17" },
-					{ "time": 0.3, "name": "Twinkle Bubble/wh_vfx_d_add_18" },
-					{ "time": 0.3333, "name": "Twinkle Bubble/wh_vfx_d_add_19" },
-					{ "time": 0.3667, "name": "Twinkle Bubble/wh_vfx_d_add_20" },
-					{ "time": 0.4, "name": "Twinkle Bubble/wh_vfx_d_add_21" },
-					{ "time": 0.4333, "name": "Twinkle Bubble/wh_vfx_d_add_22" },
-					{ "time": 0.4667, "name": "Twinkle Bubble/wh_vfx_d_add_23" }
-				]
-			},
-			"bubble": {
+			"crack": {
 				"color": [
-					{ "color": "4db3ff00" },
-					{ "time": 0.1667, "color": "4db3ffff", "curve": "stepped" },
-					{ "time": 0.3333, "color": "4db3ffff" },
-					{ "time": 0.6667, "color": "4db3ff00" }
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "name": "bubble/bubble00" },
-					{ "time": 0.0333, "name": "bubble/bubble01" },
-					{ "time": 0.0667, "name": "bubble/bubble02" },
-					{ "time": 0.1, "name": "bubble/bubble03" },
-					{ "time": 0.1333, "name": "bubble/bubble04" },
-					{ "time": 0.1667, "name": "bubble/bubble05" },
-					{ "time": 0.2, "name": "bubble/bubble06" },
-					{ "time": 0.2333, "name": "bubble/bubble07" },
-					{ "time": 0.2667, "name": "bubble/bubble08" },
-					{ "time": 0.3, "name": "bubble/bubble09" },
-					{ "time": 0.3333, "name": "bubble/bubble10" },
-					{ "time": 0.3667, "name": "bubble/bubble11" },
-					{ "time": 0.4, "name": "bubble/bubble12" },
-					{ "time": 0.4333, "name": "bubble/bubble13" },
-					{ "time": 0.4667, "name": "bubble/bubble14" },
-					{ "time": 0.5, "name": "bubble/bubble15" },
-					{ "time": 0.5333, "name": "bubble/bubble16" },
-					{ "time": 0.5667, "name": "bubble/bubble17" },
-					{ "time": 0.6, "name": "bubble/bubble18" },
-					{ "time": 0.6333, "name": "bubble/bubble19" },
-					{ "time": 0.6667, "name": "bubble/bubble20" },
-					{ "time": 0.7, "name": "bubble/bubble21" },
-					{ "time": 0.7333, "name": "bubble/bubble22" },
-					{ "time": 0.7667, "name": "bubble/bubble23" },
-					{ "time": 0.8, "name": "bubble/bubble24" }
+					{ "time": 0.3, "name": null }
 				]
 			},
-			"explode": {
+			"s3_Eagle_Head": {
 				"attachment": [
-					{ "name": "explode/sm00" },
-					{ "time": 0.0333, "name": "explode/sm01" },
-					{ "time": 0.0667, "name": "explode/sm02" },
-					{ "time": 0.1, "name": "explode/sm03" },
-					{ "time": 0.1333, "name": "explode/sm04" },
-					{ "time": 0.1667, "name": "explode/sm05" },
-					{ "time": 0.2, "name": "explode/sm06" },
-					{ "time": 0.2333, "name": "explode/sm07" },
-					{ "time": 0.2667, "name": "explode/sm08" },
-					{ "time": 0.3, "name": "explode/sm09" },
-					{ "time": 0.3333, "name": "explode/sm10" },
-					{ "time": 0.3667, "name": "explode/sm11" },
-					{ "time": 0.4, "name": "explode/sm12" },
-					{ "time": 0.4333, "name": "explode/sm13" },
-					{ "time": 0.4667, "name": "explode/sm14" },
-					{ "time": 0.5, "name": "explode/sm15" },
-					{ "time": 0.5333, "name": "explode/sm16" },
-					{ "time": 0.5667, "name": "explode/sm17" }
+					{ "time": 0.1667, "name": null }
 				]
 			},
-			"explose light circle": {
+			"s3_Eagle_Head_glow": {
 				"attachment": [
-					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
-					{ "time": 0.0333, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
-					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
-					{ "time": 0.1, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
-					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
-					{ "time": 0.1667, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
-					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
-					{ "time": 0.2333, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
-					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
-					{ "time": 0.3, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
-					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
-					{ "time": 0.3667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
-					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
+					{ "name": null }
 				]
 			},
-			"medal": {
+			"s3_bg": {
 				"attachment": [
-					{ "name": "medal" }
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"s3_bg2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"s3_broken/s3_broken_05": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "s3_broken/s3_broken_00" },
+					{ "time": 0.0667, "name": "s3_broken/s3_broken_01" },
+					{ "time": 0.1333, "name": "s3_broken/s3_broken_02" },
+					{ "time": 0.2, "name": "s3_broken/s3_broken_03" },
+					{ "time": 0.2667, "name": "s3_broken/s3_broken_04" },
+					{ "time": 0.3333, "name": "s3_broken/s3_broken_05" },
+					{ "time": 0.4, "name": "s3_broken/s3_broken_06" }
 				]
 			}
 		},
 		"bones": {
-			"medal-0": {
+			"broken": {
 				"scale": [
-					{},
-					{ "time": 0.1667, "x": 0, "y": 0 }
+					{ "x": 2, "y": 2 }
 				]
 			}
 		}
 	},
 	"highlight": {
 		"slots": {
-			"bling": {
+			"crack": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"s3_Eagle_Head_glow": {
 				"color": [
 					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "bling" }
+					{ "time": 0.3333, "color": "ffffff8a", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
 				]
 			},
-			"bling2": {
+			"s3_bg2": {
 				"color": [
 					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "bling" }
+					{ "time": 0.3333, "color": "ffffff7c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
 				]
 			},
-			"bling3": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "color": "ffffff00" }
-				],
+			"s3_broken/s3_broken_05": {
 				"attachment": [
-					{ "name": "bling" }
-				]
-			},
-			"bling4": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "bling" }
-				]
-			},
-			"medal": {
-				"attachment": [
-					{ "name": "medal" }
-				]
-			},
-			"medalside 1": {
-				"attachment": [
-					{ "name": "medalside 1" }
+					{ "name": null }
 				]
 			}
 		},
 		"bones": {
-			"medal-0": {
-				"rotate": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6667, "angle": -24.94, "curve": "stepped" },
-					{ "time": 1.1667, "angle": -24.94, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.5 }
-				],
-				"translate": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6667, "x": -5.22, "y": 8.79, "curve": "stepped" },
-					{ "time": 1.1667, "x": -5.22, "y": 8.79, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.5 }
+			"s3": {
+				"scale": [
+					{ "curve": 0.825, "c3": 0.918 },
+					{ "time": 0.3333, "x": 1.108, "y": 1.108, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333 }
 				]
-			},
-			"IKmedal": {
-				"translate": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6667, "x": -30.7, "curve": "stepped" },
-					{ "time": 1.1667, "x": -30.7, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.5 }
-				]
-			},
-			"highlight": {
-				"translate": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6667, "x": 128.86 }
-				]
-			},
-			"bling": {
-				"rotate": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2333, "angle": 180, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667 }
-				]
-			},
-			"bling2": {
-				"rotate": [
-					{ "angle": 30, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3, "angle": 180, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "angle": 30 }
-				]
-			},
-			"bling3": {
-				"rotate": [
-					{ "angle": 60, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3667, "angle": 180, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "angle": 60 }
-				]
-			},
-			"bling4": {
-				"rotate": [
-					{ "angle": 90, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4333, "angle": 180, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "angle": 90 }
-				]
-			}
-		},
-		"deform": {
-			"default": {
-				"medal-clipingmask": {
-					"medal-clipingmask": [
-						{ "curve": 0.25, "c3": 0.75 },
-						{
-							"time": 0.6667,
-							"vertices": [ 7.54377, -1.0E-5, -0.06232, 0, -1.38905, 1.0E-5, -2.27878, 0, -2.52943, -1.0E-5, -1.64502, -1.0E-5, -0.38237, 0, 0.35582, -1.0E-5, 1.48875, 0, 2.09914, 0, 1.90115, 0, 1.09983, 0, 0.08526, 0, 7.515, -1.0E-5, 7.43655, 0, 7.25785, 0, 6.11418, -1.0E-5, 3.00481, 0, -3.03521, 0, -6.18032, 0, -7.43121, 0, -7.96731, 0, -7.86009, 0, -7.53843, -1.0E-5, -14.47196, 0, -19.97589, 0, -23.40691, 0, -27.01664, 0, -28.66067, 0, -28.80363, 0, -28.44623, 0, -27.15959, 0, -23.08525, 0, -18.5463, 0, -13.39976, 0, -7.28825, 0, -3.85722, 0, 5.47087, 0, 8.50875, 0, 12.36865, 0, 17.87259, 0, 22.62598, 0, 26.5931, 0, 28.52306, 0, 28.58324, 0, 27.01069, -1.0E-5, 24.22298, 0, 20.79196, 0, 16.39596, 0, 11.07072 ]
-						}
-					]
-				}
 			}
 		}
 	},
 	"idle": {
 		"slots": {
-			"medal": {
+			"crack": {
 				"attachment": [
-					{ "name": "medal" }
+					{ "name": null }
+				]
+			},
+			"s3_Eagle_Head_glow": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"s3_bg2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"s3_broken/s3_broken_05": {
+				"attachment": [
+					{ "name": null }
 				]
 			}
 		}
