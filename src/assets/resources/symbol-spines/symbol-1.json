@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "6GuowKg8Pkae7r6CAldsuiTRhPY",
+	"hash": "tTeztZn7BuKx8r5JJJZMX1u0aqU",
 	"spine": "3.8.99",
 	"x": -55,
 	"y": -55,
@@ -68,7 +68,7 @@
 			},
 			"s1_Monkey_Head": {
 				"attachment": [
-					{ "time": 0.2, "name": null }
+					{ "time": 0.1667, "name": null }
 				]
 			},
 			"s1_Monkey_Head_glow": {
@@ -78,7 +78,7 @@
 			},
 			"s1_bg": {
 				"attachment": [
-					{ "time": 0.2, "name": null }
+					{ "time": 0.1667, "name": null }
 				]
 			},
 			"s1_bg2": {
