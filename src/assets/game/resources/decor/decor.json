@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "OcDCSIqt/w7hblSIKau+f1LJskQ",
+	"hash": "euP02qy013uvfAAy5R9Op/l0yiQ",
 	"spine": "3.8.99",
 	"x": -729.2,
 	"y": -502.16,
@@ -39,7 +39,7 @@
 ],
 "slots": [
 	{ "name": "bg", "bone": "root" },
-	{ "name": "L_light", "bone": "bone_L_light", "attachment": "L_light", "blend": "additive" },
+	{ "name": "L_light", "bone": "bone_L_light", "attachment": "L_light" },
 	{ "name": "L_fog", "bone": "bone_L_fog", "attachment": "L_fog" },
 	{ "name": "L_fog2", "bone": "bone_L_fog2", "attachment": "L_fog" },
 	{ "name": "R_fog", "bone": "bone_R_fog", "attachment": "R_fog" },
@@ -47,7 +47,7 @@
 	{ "name": "ui_particle_loop", "bone": "bone_UI_P01", "attachment": "ui_particle_loop/particle_loop_29" },
 	{ "name": "ui_particle_loop2", "bone": "bone_UI_P02", "attachment": "ui_particle_loop/particle_loop_29" },
 	{ "name": "ui_particle_loop3", "bone": "bone_UI_P03", "attachment": "ui_particle_loop/particle_loop_29" },
-	{ "name": "M_light", "bone": "bone_M_light", "attachment": "M_light", "blend": "additive" }
+	{ "name": "M_light", "bone": "bone_M_light", "attachment": "M_light" }
 ],
 "skins": [
 	{
@@ -251,28 +251,6 @@
 					{ "time": 4, "color": "ffffff00", "curve": "stepped" },
 					{ "time": 4.0333, "color": "ffffff00" },
 					{ "time": 4.6667, "color": "ffffff4f" }
-				]
-			},
-			"L_light": {
-				"color": [
-					{ "color": "ffffff81", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6333, "color": "ffffffb4", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1667, "color": "ffffff95", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.7, "color": "ffffffb4", "curve": 0.25, "c3": 0.75 },
-					{ "time": 2.3333, "color": "ffffffc7", "curve": 0.25, "c3": 0.75 },
-					{ "time": 2.9667, "color": "ffffffb4", "curve": 0.25, "c3": 0.75 },
-					{ "time": 3.5, "color": "ffffff8b", "curve": 0.25, "c3": 0.75 },
-					{ "time": 4.0333, "color": "ffffffa0", "curve": 0.25, "c3": 0.75 },
-					{ "time": 4.6667, "color": "ffffff81" }
-				]
-			},
-			"M_light": {
-				"color": [
-					{ "color": "ffffff54", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "color": "ffffff3c", "curve": 0.25, "c3": 0.75 },
-					{ "time": 2, "color": "ffffff4f", "curve": 0.25, "c3": 0.75 },
-					{ "time": 3.3333, "color": "ffffff32", "curve": 0.25, "c3": 0.75 },
-					{ "time": 4.6667, "color": "ffffff54" }
 				]
 			},
 			"R_fog": {
@@ -591,6 +569,13 @@
 					{ "time": 1.1667, "angle": 10, "curve": 0.25, "c3": 0.75 },
 					{ "time": 2.3333, "curve": 0.25, "c3": 0.75 },
 					{ "time": 3.5, "angle": 10, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.6667 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 1.5, "y": 1.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.5, "x": 1.5, "y": 1.5, "curve": 0.25, "c3": 0.75 },
 					{ "time": 4.6667 }
 				]
 			},
