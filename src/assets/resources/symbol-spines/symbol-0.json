@@ -1,31 +1,42 @@
 {
 "skeleton": {
-	"hash": "80cNyvRIEmtT+ArFhJDXc0IwI6A",
+	"hash": "1EGnJaXcay1GMeXZSUoq9kxZcGo",
 	"spine": "3.8.99",
-	"x": -55,
-	"y": -55,
-	"width": 110,
-	"height": 110,
+	"x": -85,
+	"y": -85,
+	"width": 170,
+	"height": 170,
 	"images": "./image/",
 	"audio": ""
 },
 "bones": [
 	{ "name": "root" },
 	{ "name": "s0", "parent": "root" },
-	{ "name": "broken", "parent": "root" }
+	{ "name": "broken", "parent": "root" },
+	{ "name": "crack", "parent": "root" }
 ],
 "slots": [
 	{ "name": "s0_bg", "bone": "root", "attachment": "s0_bg" },
 	{ "name": "s0_bg2", "bone": "root", "attachment": "s0_bg", "blend": "additive" },
 	{ "name": "s0_Frog_Head", "bone": "s0", "attachment": "s0_Frog_Head" },
 	{ "name": "s0_Frog_Head_glow", "bone": "s0", "attachment": "s0_Frog_Head_glow", "blend": "additive" },
-	{ "name": "crack", "bone": "root", "attachment": "crack" },
-	{ "name": "s0_broken/s0_broken_05", "bone": "broken", "attachment": "s0_broken/s0_broken_06" }
+	{ "name": "s0_broken/s0_broken_00", "bone": "broken", "attachment": "s0_broken/s0_broken_05" },
+	{ "name": "broken_bk/broken_bk_00", "bone": "broken", "color": "74820eff", "attachment": "broken_bk/broken_bk_11" },
+	{ "name": "crack", "bone": "crack", "attachment": "crack" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
+			"broken_bk/broken_bk_00": {
+				"broken_bk/broken_bk_05": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_06": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_07": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_08": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_09": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_10": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_11": { "width": 170, "height": 170 }
+			},
 			"crack": {
 				"crack": { "width": 110, "height": 110 }
 			},
@@ -41,14 +52,13 @@
 			"s0_bg2": {
 				"s0_bg": { "width": 110, "height": 110 }
 			},
-			"s0_broken/s0_broken_05": {
-				"s0_broken/s0_broken_00": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_01": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_02": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_03": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_04": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_05": { "width": 85, "height": 85 },
-				"s0_broken/s0_broken_06": { "width": 85, "height": 85 }
+			"s0_broken/s0_broken_00": {
+				"s0_broken/s0_broken_00": { "width": 170, "height": 170 },
+				"s0_broken/s0_broken_01": { "width": 170, "height": 170 },
+				"s0_broken/s0_broken_02": { "width": 170, "height": 170 },
+				"s0_broken/s0_broken_03": { "width": 170, "height": 170 },
+				"s0_broken/s0_broken_04": { "width": 170, "height": 170 },
+				"s0_broken/s0_broken_05": { "width": 170, "height": 170 }
 			}
 		}
 	}
@@ -56,11 +66,28 @@
 "animations": {
 	"explode": {
 		"slots": {
+			"broken_bk/broken_bk_00": {
+				"color": [
+					{ "color": "74820e00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "74820e00" },
+					{ "time": 0.2, "color": "74820eff" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "broken_bk/broken_bk_05" },
+					{ "time": 0.2, "name": "broken_bk/broken_bk_06" },
+					{ "time": 0.2333, "name": "broken_bk/broken_bk_07" },
+					{ "time": 0.2667, "name": "broken_bk/broken_bk_08" },
+					{ "time": 0.3, "name": "broken_bk/broken_bk_09" },
+					{ "time": 0.3333, "name": "broken_bk/broken_bk_10" },
+					{ "time": 0.3667, "name": "broken_bk/broken_bk_11" },
+					{ "time": 0.4, "name": null }
+				]
+			},
 			"crack": {
 				"color": [
 					{ "color": "ffffff00" },
-					{ "time": 0.1333, "color": "ffffffff" },
-					{ "time": 0.2, "color": "ffffff00" }
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
 				],
 				"attachment": [
 					{ "time": 0.3, "name": null }
@@ -68,7 +95,7 @@
 			},
 			"s0_Frog_Head": {
 				"attachment": [
-					{ "time": 0.2, "name": null }
+					{ "time": 0.1667, "name": null }
 				]
 			},
 			"s0_Frog_Head_glow": {
@@ -78,7 +105,7 @@
 			},
 			"s0_bg": {
 				"attachment": [
-					{ "time": 0.2, "name": null }
+					{ "time": 0.1667, "name": null }
 				]
 			},
 			"s0_bg2": {
@@ -86,33 +113,37 @@
 					{ "name": null }
 				]
 			},
-			"s0_broken/s0_broken_05": {
+			"s0_broken/s0_broken_00": {
 				"color": [
-					{ "color": "ffffff00", "curve": "stepped" },
-					{ "time": 0.1, "color": "ffffff00" },
-					{ "time": 0.1333, "color": "ffffffff" }
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
 				],
 				"attachment": [
 					{ "name": "s0_broken/s0_broken_00" },
-					{ "time": 0.0667, "name": "s0_broken/s0_broken_01" },
-					{ "time": 0.1333, "name": "s0_broken/s0_broken_02" },
-					{ "time": 0.2, "name": "s0_broken/s0_broken_03" },
-					{ "time": 0.2667, "name": "s0_broken/s0_broken_04" },
-					{ "time": 0.3333, "name": "s0_broken/s0_broken_05" },
-					{ "time": 0.4, "name": "s0_broken/s0_broken_06" }
+					{ "time": 0.0333, "name": "s0_broken/s0_broken_01" },
+					{ "time": 0.0667, "name": "s0_broken/s0_broken_02" },
+					{ "time": 0.1, "name": "s0_broken/s0_broken_03" },
+					{ "time": 0.1333, "name": "s0_broken/s0_broken_04" },
+					{ "time": 0.1667, "name": "s0_broken/s0_broken_05" }
 				]
 			}
 		},
 		"bones": {
-			"broken": {
+			"crack": {
 				"scale": [
-					{ "x": 2, "y": 2 }
+					{},
+					{ "time": 0.1667, "x": 1.05, "y": 1.05 }
 				]
 			}
 		}
 	},
 	"highlight": {
 		"slots": {
+			"broken_bk/broken_bk_00": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
 			"crack": {
 				"attachment": [
 					{ "name": null }
@@ -131,6 +162,11 @@
 					{ "time": 0.3333, "color": "ffffff7c", "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.8333, "color": "ffffff00" }
 				]
+			},
+			"s0_broken/s0_broken_00": {
+				"attachment": [
+					{ "name": null }
+				]
 			}
 		},
 		"bones": {
@@ -145,6 +181,11 @@
 	},
 	"idle": {
 		"slots": {
+			"broken_bk/broken_bk_00": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
 			"crack": {
 				"attachment": [
 					{ "name": null }
@@ -156,6 +197,11 @@
 				]
 			},
 			"s0_bg2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"s0_broken/s0_broken_00": {
 				"attachment": [
 					{ "name": null }
 				]

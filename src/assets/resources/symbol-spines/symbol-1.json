@@ -1,31 +1,43 @@
 {
 "skeleton": {
-	"hash": "tTeztZn7BuKx8r5JJJZMX1u0aqU",
+	"hash": "aPHTAEpR695qzpVkxE8BYCPPiww",
 	"spine": "3.8.99",
-	"x": -55,
-	"y": -55,
-	"width": 110,
-	"height": 110,
+	"x": -85,
+	"y": -85,
+	"width": 170,
+	"height": 170,
 	"images": "./image/",
 	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/symbol-spine"
 },
 "bones": [
 	{ "name": "root" },
 	{ "name": "s1", "parent": "root" },
-	{ "name": "broken", "parent": "root" }
+	{ "name": "broken", "parent": "root" },
+	{ "name": "crack", "parent": "root" }
 ],
 "slots": [
 	{ "name": "s1_bg", "bone": "root", "attachment": "s1_bg" },
 	{ "name": "s1_bg2", "bone": "root", "attachment": "s1_bg", "blend": "additive" },
 	{ "name": "s1_Monkey_Head", "bone": "s1", "attachment": "s1_Monkey_Head" },
 	{ "name": "s1_Monkey_Head_glow", "bone": "s1", "attachment": "s1_Monkey_Head_glow", "blend": "additive" },
-	{ "name": "crack", "bone": "root", "attachment": "crack" },
-	{ "name": "s1_broken/s1_broken_05", "bone": "broken", "attachment": "s1_broken/s1_broken_06" }
+	{ "name": "s1_broken/s1_broken_05", "bone": "broken" },
+	{ "name": "broken_bk/broken_bk_05", "bone": "broken", "attachment": "broken_bk/broken_bk_12" },
+	{ "name": "crack", "bone": "crack", "attachment": "crack" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
+			"broken_bk/broken_bk_05": {
+				"broken_bk/broken_bk_05": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_06": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_07": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_08": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_09": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_10": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_11": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_12": { "width": 170, "height": 170 }
+			},
 			"crack": {
 				"crack": { "width": 110, "height": 110 }
 			},
@@ -42,13 +54,12 @@
 				"s1_bg": { "width": 110, "height": 110 }
 			},
 			"s1_broken/s1_broken_05": {
-				"s1_broken/s1_broken_00": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s1_broken/s1_broken_01": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s1_broken/s1_broken_02": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s1_broken/s1_broken_03": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s1_broken/s1_broken_04": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s1_broken/s1_broken_05": { "width": 85, "height": 85 },
-				"s1_broken/s1_broken_06": { "width": 85, "height": 85 }
+				"s1_broken/s1_broken_00": { "x": 0.5, "y": 0.5, "width": 170, "height": 170 },
+				"s1_broken/s1_broken_01": { "x": 0.5, "y": 0.5, "width": 170, "height": 170 },
+				"s1_broken/s1_broken_02": { "x": 0.5, "y": 0.5, "width": 170, "height": 170 },
+				"s1_broken/s1_broken_03": { "x": 0.5, "y": 0.5, "width": 170, "height": 170 },
+				"s1_broken/s1_broken_04": { "x": 0.5, "y": 0.5, "width": 170, "height": 170 },
+				"s1_broken/s1_broken_05": { "width": 170, "height": 170 }
 			}
 		}
 	}
@@ -56,11 +67,26 @@
 "animations": {
 	"explode": {
 		"slots": {
+			"broken_bk/broken_bk_05": {
+				"color": [
+					{ "color": "5587a1ff" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "broken_bk/broken_bk_05" },
+					{ "time": 0.2, "name": "broken_bk/broken_bk_06" },
+					{ "time": 0.2333, "name": "broken_bk/broken_bk_07" },
+					{ "time": 0.2667, "name": "broken_bk/broken_bk_08" },
+					{ "time": 0.3, "name": "broken_bk/broken_bk_09" },
+					{ "time": 0.3333, "name": "broken_bk/broken_bk_10" },
+					{ "time": 0.3667, "name": "broken_bk/broken_bk_11" },
+					{ "time": 0.4, "name": "broken_bk/broken_bk_12" }
+				]
+			},
 			"crack": {
 				"color": [
 					{ "color": "ffffff00" },
-					{ "time": 0.1333, "color": "ffffffff" },
-					{ "time": 0.2, "color": "ffffff00" }
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
 				],
 				"attachment": [
 					{ "time": 0.3, "name": null }
@@ -68,7 +94,7 @@
 			},
 			"s1_Monkey_Head": {
 				"attachment": [
-					{ "time": 0.1667, "name": null }
+					{ "time": 0.1333, "name": null }
 				]
 			},
 			"s1_Monkey_Head_glow": {
@@ -78,7 +104,7 @@
 			},
 			"s1_bg": {
 				"attachment": [
-					{ "time": 0.1667, "name": null }
+					{ "time": 0.1333, "name": null }
 				]
 			},
 			"s1_bg2": {
@@ -88,25 +114,25 @@
 			},
 			"s1_broken/s1_broken_05": {
 				"color": [
-					{ "color": "ffffff00", "curve": "stepped" },
-					{ "time": 0.1333, "color": "ffffff00" },
-					{ "time": 0.1667, "color": "ffffffff" }
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
 				],
 				"attachment": [
 					{ "name": "s1_broken/s1_broken_00" },
-					{ "time": 0.0667, "name": "s1_broken/s1_broken_01" },
-					{ "time": 0.1333, "name": "s1_broken/s1_broken_02" },
-					{ "time": 0.2, "name": "s1_broken/s1_broken_03" },
-					{ "time": 0.2667, "name": "s1_broken/s1_broken_04" },
-					{ "time": 0.3333, "name": "s1_broken/s1_broken_05" },
-					{ "time": 0.4, "name": "s1_broken/s1_broken_06" }
+					{ "time": 0.0333, "name": "s1_broken/s1_broken_01" },
+					{ "time": 0.0667, "name": "s1_broken/s1_broken_02" },
+					{ "time": 0.1, "name": "s1_broken/s1_broken_03" },
+					{ "time": 0.1333, "name": "s1_broken/s1_broken_04" },
+					{ "time": 0.1667, "name": "s1_broken/s1_broken_05" },
+					{ "time": 0.2, "name": null }
 				]
 			}
 		},
 		"bones": {
-			"broken": {
+			"crack": {
 				"scale": [
-					{ "x": 2, "y": 2 }
+					{},
+					{ "time": 0.1667, "x": 1.05, "y": 1.05 }
 				]
 			}
 		}
@@ -156,11 +182,6 @@
 				]
 			},
 			"s1_bg2": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"s1_broken/s1_broken_05": {
 				"attachment": [
 					{ "name": null }
 				]

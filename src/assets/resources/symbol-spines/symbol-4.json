@@ -1,31 +1,43 @@
 {
 "skeleton": {
-	"hash": "0JdAA3ef0oRQMv5WUU7amT53mq8",
+	"hash": "ayNaL4dFx+W2UWtKpvI45voyDhY",
 	"spine": "3.8.99",
-	"x": -55,
-	"y": -55,
-	"width": 110,
-	"height": 110,
+	"x": -85,
+	"y": -85,
+	"width": 170,
+	"height": 170,
 	"images": "./image/",
 	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/symbol-spine"
 },
 "bones": [
 	{ "name": "root" },
 	{ "name": "s4", "parent": "root" },
-	{ "name": "broken", "parent": "root" }
+	{ "name": "broken", "parent": "root" },
+	{ "name": "crack", "parent": "root" }
 ],
 "slots": [
 	{ "name": "s4_bg", "bone": "root", "attachment": "s4_bg" },
 	{ "name": "s4_bg2", "bone": "root", "attachment": "s4_bg", "blend": "additive" },
 	{ "name": "s4_Jaguar_Head", "bone": "s4", "attachment": "s4_Jaguar_Head" },
 	{ "name": "s4_Jaguar_Head_glow", "bone": "s4", "attachment": "s4_Jaguar_Head_glow", "blend": "additive" },
-	{ "name": "crack", "bone": "root", "attachment": "crack" },
-	{ "name": "s4_broken/s4_broken_05", "bone": "broken", "attachment": "s4_broken/s4_broken_06" }
+	{ "name": "broken_bk/broken_bk_05", "bone": "broken", "color": "956666ff", "dark": "1f1212", "attachment": "broken_bk/broken_bk_12" },
+	{ "name": "s4_broken/s4_broken_00", "bone": "broken", "attachment": "s4_broken/s4_broken_05" },
+	{ "name": "crack", "bone": "crack", "attachment": "crack" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
+			"broken_bk/broken_bk_05": {
+				"broken_bk/broken_bk_05": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_06": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_07": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_08": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_09": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_10": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_11": { "width": 170, "height": 170 },
+				"broken_bk/broken_bk_12": { "width": 170, "height": 170 }
+			},
 			"crack": {
 				"crack": { "width": 110, "height": 110 }
 			},
@@ -41,14 +53,13 @@
 			"s4_bg2": {
 				"s4_bg": { "width": 110, "height": 110 }
 			},
-			"s4_broken/s4_broken_05": {
-				"s4_broken/s4_broken_00": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s4_broken/s4_broken_01": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s4_broken/s4_broken_02": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s4_broken/s4_broken_03": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s4_broken/s4_broken_04": { "x": 0.5, "y": 0.5, "width": 85, "height": 85 },
-				"s4_broken/s4_broken_05": { "width": 85, "height": 85 },
-				"s4_broken/s4_broken_06": { "width": 85, "height": 85 }
+			"s4_broken/s4_broken_00": {
+				"s4_broken/s4_broken_00": { "width": 170, "height": 170 },
+				"s4_broken/s4_broken_01": { "width": 170, "height": 170 },
+				"s4_broken/s4_broken_02": { "width": 170, "height": 170 },
+				"s4_broken/s4_broken_03": { "width": 170, "height": 170 },
+				"s4_broken/s4_broken_04": { "width": 170, "height": 170 },
+				"s4_broken/s4_broken_05": { "width": 170, "height": 170 }
 			}
 		}
 	}
@@ -56,10 +67,23 @@
 "animations": {
 	"explode": {
 		"slots": {
+			"broken_bk/broken_bk_05": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1333, "name": "broken_bk/broken_bk_05" },
+					{ "time": 0.2, "name": "broken_bk/broken_bk_06" },
+					{ "time": 0.2333, "name": "broken_bk/broken_bk_07" },
+					{ "time": 0.2667, "name": "broken_bk/broken_bk_08" },
+					{ "time": 0.3, "name": "broken_bk/broken_bk_09" },
+					{ "time": 0.3333, "name": "broken_bk/broken_bk_10" },
+					{ "time": 0.3667, "name": "broken_bk/broken_bk_11" },
+					{ "time": 0.4, "name": "broken_bk/broken_bk_12" }
+				]
+			},
 			"crack": {
 				"color": [
 					{ "color": "ffffff00" },
-					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.0667, "color": "ffffffff" },
 					{ "time": 0.1333, "color": "ffffff00" }
 				],
 				"attachment": [
@@ -86,28 +110,37 @@
 					{ "name": null }
 				]
 			},
-			"s4_broken/s4_broken_05": {
+			"s4_broken/s4_broken_00": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
 				"attachment": [
 					{ "name": "s4_broken/s4_broken_00" },
-					{ "time": 0.0667, "name": "s4_broken/s4_broken_01" },
-					{ "time": 0.1333, "name": "s4_broken/s4_broken_02" },
-					{ "time": 0.2, "name": "s4_broken/s4_broken_03" },
-					{ "time": 0.2667, "name": "s4_broken/s4_broken_04" },
-					{ "time": 0.3333, "name": "s4_broken/s4_broken_05" },
-					{ "time": 0.4, "name": "s4_broken/s4_broken_06" }
+					{ "time": 0.0333, "name": "s4_broken/s4_broken_01" },
+					{ "time": 0.0667, "name": "s4_broken/s4_broken_02" },
+					{ "time": 0.1, "name": "s4_broken/s4_broken_03" },
+					{ "time": 0.1333, "name": "s4_broken/s4_broken_04" },
+					{ "time": 0.1667, "name": "s4_broken/s4_broken_05" }
 				]
 			}
 		},
 		"bones": {
-			"broken": {
+			"crack": {
 				"scale": [
-					{ "x": 2, "y": 2 }
+					{},
+					{ "time": 0.1333, "x": 1.05, "y": 1.05 }
 				]
 			}
 		}
 	},
 	"highlight": {
 		"slots": {
+			"broken_bk/broken_bk_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
 			"crack": {
 				"attachment": [
 					{ "name": null }
@@ -127,7 +160,7 @@
 					{ "time": 0.8333, "color": "ffffff00" }
 				]
 			},
-			"s4_broken/s4_broken_05": {
+			"s4_broken/s4_broken_00": {
 				"attachment": [
 					{ "name": null }
 				]
@@ -145,6 +178,11 @@
 	},
 	"idle": {
 		"slots": {
+			"broken_bk/broken_bk_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
 			"crack": {
 				"attachment": [
 					{ "name": null }
@@ -160,7 +198,7 @@
 					{ "name": null }
 				]
 			},
-			"s4_broken/s4_broken_05": {
+			"s4_broken/s4_broken_00": {
 				"attachment": [
 					{ "name": null }
 				]
