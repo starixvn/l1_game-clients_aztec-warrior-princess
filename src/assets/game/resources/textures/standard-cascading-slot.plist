@@ -144,13 +144,13 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{-37.5,37.5}</string>
+                <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{3,3}</string>
+                <string>{78,78}</string>
                 <key>spriteSourceSize</key>
                 <string>{78,78}</string>
                 <key>textureRect</key>
-                <string>{{502,3},{3,3}}</string>
+                <string>{{223,736},{78,78}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -528,7 +528,7 @@
             <key>size</key>
             <string>{512,2048}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:0dc5ac962737cce0adf2ae6c9d7fb2fa:4f3a55881f3bae4bcc6a49fd8e412f33:40ee7df176381dd4082d4248ef6d2be1$</string>
+            <string>$TexturePacker:SmartUpdate:2394461a8c2cba7a20e56abdd05ce113:a81c559059efe3bf7b9cf5561727ba65:40ee7df176381dd4082d4248ef6d2be1$</string>
             <key>textureFileName</key>
             <string>standard-cascading-slot.webp</string>
         </dict>
