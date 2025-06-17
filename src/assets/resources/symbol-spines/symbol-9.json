@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "QixypaP5iRZhy8gDYmC2M/znvNs",
+	"hash": "QxsCQqGYCM9RIK+GRCad+CyPoHs",
 	"spine": "3.8.99",
 	"x": -75,
 	"y": -75,
@@ -24,7 +24,7 @@
 	{ "name": "s9_moon", "bone": "moon", "attachment": "s9_moon" },
 	{ "name": "s9_building", "bone": "building", "attachment": "s9_building" },
 	{ "name": "s9_building_glow", "bone": "building", "attachment": "s9_building_glow", "blend": "additive" },
-	{ "name": "s9_light", "bone": "light", "attachment": "s9_light", "blend": "screen" },
+	{ "name": "s9_light", "bone": "light", "attachment": "s9_light", "blend": "additive" },
 	{ "name": "s9_particle_loop/s9_particle_loop_00", "bone": "building", "blend": "additive" },
 	{ "name": "tree_lf", "bone": "front_tree", "attachment": "tree_lf" },
 	{ "name": "tree_rt", "bone": "front_tree", "attachment": "tree_rt" },
@@ -136,7 +136,7 @@
 	}
 ],
 "animations": {
-	"hightlight": {
+	"highlight": {
 		"slots": {
 			"frame_gold_glow": {
 				"color": [
@@ -175,7 +175,8 @@
 			"s9_light": {
 				"color": [
 					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5, "color": "ffffffff" }
+					{ "time": 0.5, "color": "ffffff64" },
+					{ "time": 1, "color": "ffffff4f" }
 				]
 			},
 			"s9_particle_loop/s9_particle_loop_00": {

@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "IfcII1EXvywu6gCs5jGc2FXsL7k",
+	"hash": "e4wDPSMKz3NkNqyY/LcEUUSe+Ig",
 	"spine": "3.8.99",
 	"x": -766.5,
 	"y": -437.49,
@@ -60,6 +60,18 @@
 "animations": {
 	"show": {
 		"slots": {
+			"door_lf": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"door_rt": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
 			"dust/dust_05": {
 				"color": [
 					{ "color": "ffffff00", "curve": "stepped" },
