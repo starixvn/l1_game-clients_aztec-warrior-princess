@@ -1,13 +1,13 @@
 {
 "skeleton": {
-	"hash": "Eyr6+2EaDRBAZgKk6pM20xnQijM",
+	"hash": "9K/v6UjkzfKgMs/9BaqTgVaIYvg",
 	"spine": "3.8.99",
 	"x": -60,
 	"y": -60,
 	"width": 120,
 	"height": 120,
 	"images": "./image/",
-	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/symbol-spine"
+	"audio": ""
 },
 "bones": [
 	{ "name": "root" },
@@ -24,9 +24,9 @@
 	{ "name": "shiny8", "parent": "gem", "x": 19.07, "y": 25.33 }
 ],
 "slots": [
-	{ "name": "s11_bg", "bone": "bg", "attachment": "s11_bg" },
+	{ "name": "s13_bg", "bone": "bg", "attachment": "s13_bg" },
 	{ "name": "bg_starglow", "bone": "bg", "attachment": "bg_starglow", "blend": "additive" },
-	{ "name": "s11_gem", "bone": "gem", "attachment": "s11_gem" },
+	{ "name": "s13_gem", "bone": "gem", "attachment": "s13_gem" },
 	{ "name": "gem_reflection-1", "bone": "gem", "attachment": "gem_reflection-1", "blend": "additive" },
 	{ "name": "gem_reflection-10", "bone": "gem", "attachment": "gem_reflection-10", "blend": "additive" },
 	{ "name": "gem_reflection-2", "bone": "gem", "attachment": "gem_reflection-2", "blend": "additive" },
@@ -103,11 +103,11 @@
 			"gem_reflection-15": {
 				"gem_reflection-15": { "x": 12.01, "y": 0.87, "width": 23, "height": 31 }
 			},
-			"s11_bg": {
-				"s11_bg": { "width": 110, "height": 110 }
+			"s13_bg": {
+				"s13_bg": { "width": 110, "height": 110 }
 			},
-			"s11_gem": {
-				"s11_gem": { "width": 71, "height": 71 }
+			"s13_gem": {
+				"s13_gem": { "width": 71, "height": 71 }
 			},
 			"shiny": {
 				"shiny": { "width": 50, "height": 62 }

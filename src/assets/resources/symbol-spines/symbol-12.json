@@ -1,13 +1,13 @@
 {
 "skeleton": {
-	"hash": "1Ug5wjB0lQTkdhKETQLu6wZnDIw",
+	"hash": "XYGTTTI3NgDksf61/PFSqUY/tl4",
 	"spine": "3.8.99",
 	"x": -60,
 	"y": -60,
 	"width": 120,
 	"height": 120,
 	"images": "./image/",
-	"audio": "/Users/mia.lin/@OneLab/＠Project/VN_Slot_game/AncientAztecJungle/spine/symbol-spine"
+	"audio": ""
 },
 "bones": [
 	{ "name": "root" },
