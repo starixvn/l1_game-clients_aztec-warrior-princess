@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "7UoctzNbFjN0G1kmPFlur2LNekc",
+	"hash": "B1wtsGIfFsUm6OETQu5TsOafZQM",
 	"spine": "3.8.99",
 	"x": -277.5,
 	"y": -257,
@@ -50,7 +50,7 @@
 				"fs_lightsweep/fs_lightsweep_12": { "width": 555, "height": 514 }
 			},
 			"text_freespins": {
-				"text_freespins": { "y": -118.49, "width": 320, "height": 62 }
+				"text_freespins": { "y": -118.49, "width": 380, "height": 90 }
 			},
 			"text_freespins_starglow": {
 				"text_freespins_starglow": { "y": -118.49, "width": 380, "height": 90 }
