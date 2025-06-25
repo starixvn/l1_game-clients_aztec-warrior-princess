@@ -1,5 +1,5 @@
 export const settings = {
-    id: 126,
+    id: 128,
     name: "AztecPrincess",
     tolgeeNamespaces: ["AztecPrincess", "cascadingslot"],
     durations: {
