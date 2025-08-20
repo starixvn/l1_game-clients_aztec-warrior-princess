@@ -1,22 +1,30 @@
 {
     "lobbyNames": {
         "en": "Aztec Princess",
+        "es": "Aztec Princess",
+        "fil_ph": "Aztec Princess",
         "id": "Putri Aztec",
+        "ja": "Aztec Princess",
+        "ko": "아즈텍 공주",
+        "pt_br": "Princesa Asteca",
         "th": "Aztec Princess",
+        "tr": "Aztek Prensesi",
         "vi": "Công Chúa\nAztec",
         "zh_cn": "阿兹特克公主",
-        "zh_tw": "阿茲特克公主",
-        "ja": "Aztec Princess",
-        "es": "Aztec Princess"
+        "zh_tw": "阿茲特克公主"
     },
     "gameNames": {
         "en": "Aztec Princess",
+        "es": "Aztec Princess",
+        "fil_ph": "Aztec Princess",
         "id": "Putri Aztek",
+        "ja": "Aztec Princess",
+        "ko": "아즈텍 공주",
+        "pt_br": "Princesa Asteca",
         "th": "Aztec Princess",
+        "tr": "Aztek Prensesi",
         "vi": "Công chúa Aztec",
         "zh_cn": "阿兹特克公主",
-        "zh_tw": "阿茲特克公主",
-        "ja": "Aztec Princess",
-        "es": "Aztec Princess"
+        "zh_tw": "阿茲特克公主"
     }
 }

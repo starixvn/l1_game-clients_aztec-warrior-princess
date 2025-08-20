@@ -53,7 +53,9 @@
         "db://i18n/(.*)": "<rootDir>/extensions/i18n/assets/$1",
         "socket.io-client/dist/socket.io.msgpack.min.js": "socket.io-client/dist/socket.io.js",
         "db://assets/game/scripts/game-settings": "<rootDir>/tests/mocks/game-settings",
-        "db://assets/game/scripts/containerOptions": "<rootDir>/tests/assets/game/scripts/containerOptions"
+        "db://assets/game/scripts/containerOptions": "<rootDir>/tests/assets/game/scripts/containerOptions",
+        "db://shared-common-slot/index": "<rootDir>/tests/mocks/shared-common-slot/index",
+        "db://shared-common-slot/(.*)": "<rootDir>/tests/mocks/shared-common-slot/$1"
     },
     "maxWorkers": 10
 }

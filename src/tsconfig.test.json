@@ -25,7 +25,8 @@
             ],
             "db://assets/game/scripts/containerOptions": [
                 "./tests/assets/game/scripts/containerOptions"
-            ]
+            ],
+            "db://shared-common-slot/*": ["./extensions/shared-common-slot/assets/*"]
         }
     }
 }
